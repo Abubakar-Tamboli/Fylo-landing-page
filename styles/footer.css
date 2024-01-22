@@ -1,7 +1,7 @@
 
 .footer-background{
     background-color:  hsl(243, 87%, 12%);
-    padding: 2rem;
+    padding: 9rem;
 }
 
 .footer-main{
@@ -10,33 +10,39 @@
     width: var(--width);
 
     display: flex;
-    justify-content: space-between;
-    font-size: 0.7em;
+    justify-content: space-around;
+    font-size: 0.9em;
 
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-
+    margin-bottom: -2rem;
 }
 
 .fylo-social{
     display: flex;
     flex-direction: column;
+    align-items: start;
+    margin-left: -24.5rem;
+    margin-top: -5rem;
+    line-height: 2rem;
 }
 .footer-logo{
     background-color: transparent;
     color: hsl(240, 75%, 98%);
+    width: 16vw;
+    margin-bottom: 1rem;
 }
 
 .phone-icon{
     width: 1vw;
     display: inline-block;
     vertical-align: middle;
+    margin-right: 0.5rem;
 }
 
 .email-icon{
     width: 1vw;
     display: inline-block;
     vertical-align: middle;
+    margin-right: 0.5rem;
 }
 
 .phone{
@@ -51,16 +57,44 @@
 
 .about-us{
     list-style: none;
-    gap: 1rem;
+    margin-left: -25rem;
+    line-height: 2rem;
 }
 
 .contact-us{
     list-style: none;
+    margin-left: -25rem;
+    line-height: 2rem;
 }
 
 .facebook-icon,
 .twitter-icon,
 .insta-icon{
     width: 2vw;
+    margin-left: 0.2rem;
 }
+
+.social-icons{
+    margin-left: -30rem;
+}
+
+.social-icons a{
+    text-decoration: none;
+}
+
+
+.about-us a,
+.contact-us a,
+.phone a,
+.email-div a{
+    color: hsl(240, 75%, 98%);
+}
+
+.about-us a :hover,
+.contact-us a :hover,
+.phone a :hover,
+.email-div a :hover{
+    text-decoration: underline;
+}
+
 

@@ -2,7 +2,8 @@
 
 .productive-background{
     background-image: url(/images/bg-curve-desktop.svg);
-    margin-top: 1rem;
+    margin-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .productive-main{
@@ -48,7 +49,7 @@
 
 .ceo{
     background-color: white;
-    width: 16vw;
+    width: 33ch;
     padding: 2rem 3.5rem 2rem 2rem ;
     margin-top: 2rem;
     margin-right: 1rem;
@@ -72,18 +73,19 @@
 
 .ceo-name{
     margin: 0;
-    font-weight: bolder;
-    font-size: 0.8em;
+    font-weight: 900;
+    font-size: 0.7em;
 }
 
 .ceo-info{
    margin: 0;
-   font-size: 0.9em;
+   font-size: 0.7em;
 }
 
 .ceo-inline{
     display: inline-block;
     vertical-align: middle;
+    margin-left: 0.5rem;
 }
 
 

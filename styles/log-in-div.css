@@ -28,7 +28,7 @@
 }
 
 .input-email{
-    padding: 0.4rem 7rem 0.5rem 0.8rem;
+    padding: 1rem 7rem 1rem 0.8rem;
     font-size: 0.8em;
     border: 1px solid hsl(0, 0%, 75%);
     border-radius: 4px;
@@ -39,14 +39,15 @@
 
 }
 .get-started-btn{
-    padding: 0.6rem 3.8rem;
+    padding: 1rem 3.8rem;
     border: none;
     background-color:   hsl(224, 93%, 58%);
     color: hsl(240, 75%, 98%);
-    font-size: 0.7em;
-    font-weight: 500;
+    font-size: 0.8em;
+    font-weight: 600;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: 1rem;
 }
 
 
@@ -58,4 +59,5 @@
 .right-log-in-image{
     width: 45vw;
     margin-left: 5rem;
+    margin-top: 2rem;
 }

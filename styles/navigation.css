@@ -6,7 +6,7 @@
     justify-content: space-between;
     margin-inline: var(--margin-inline);
     width: var(--width);
-    margin-top:1.5rem;
+    margin-top: 4rem;
 }
 
 .actions{
@@ -18,16 +18,14 @@
 }
 
 .nav-image{
-    width: 18vh;
+    width: 12vw;
 }
-
-
-
 
 ul {
     display: flex;
-    gap: 1rem;
+    gap: 4rem;
 }
+
 li{
     list-style: none;
     font-weight: 600;
@@ -39,4 +37,5 @@ a{
 
 a:hover{
     color: blue;
+    text-decoration: underline;
 }
