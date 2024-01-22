@@ -1,0 +1,61 @@
+
+.log-in{
+    margin-inline: var(--margin-inline);
+    width: var(--width);
+
+    display: flex;
+
+    margin-top: 3rem;
+}
+
+.left-log-in{
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.left-log-in-heading{
+    width: 25ch;
+    font-family: 'Raleway',sans-serif;
+    font-size: 2.5rem;
+}
+
+.left-log-in-para{
+    width: 58ch;
+    font-weight: 500;
+}
+
+.input-email{
+    padding: 0.4rem 7rem 0.5rem 0.8rem;
+    font-size: 0.8em;
+    border: 1px solid hsl(0, 0%, 75%);
+    border-radius: 4px;
+}
+
+::placeholder{
+    color: hsl(0, 0%, 75%);
+
+}
+.get-started-btn{
+    padding: 0.6rem 3.8rem;
+    border: none;
+    background-color:   hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+    font-size: 0.7em;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.right-log-in{
+    flex: 1;
+}
+
+.right-log-in-image{
+    width: 45vw;
+    margin-left: 5rem;
+}

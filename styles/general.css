@@ -1,0 +1,14 @@
+
+:root{
+    --margin-inline:auto;
+    --width:90vw;
+}
+
+body{
+    font-family: 'Open sans',sans-serif;
+    padding: 0;
+}
+
+p{
+    font-size: 1rem;
+}

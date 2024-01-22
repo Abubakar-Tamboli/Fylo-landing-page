@@ -1,0 +1,52 @@
+
+
+.sign-up-background{
+    background-color:  hsl(238, 22%, 44%);
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.sign-up-main{
+    color: white;
+
+    margin-inline: var(--margin-inline);
+    width: var(--width);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left-sign-up{
+
+    width: 55ch;
+}
+
+.right-sign-up{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-right: rem;
+}
+
+.sign-up-email{
+    padding: 1rem 30rem 1rem 0.8rem;
+    font-size: 0.8em;
+    border: 1px solid hsl(0, 0%, 75%);
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.get-started-for-free{
+    padding: 1rem 3.8rem;
+    border: none;
+    background-color:   hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+    font-size: 0.8em;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+
+}

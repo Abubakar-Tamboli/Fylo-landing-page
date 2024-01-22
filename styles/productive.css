@@ -1,0 +1,96 @@
+
+
+.productive-background{
+    background-image: url(/images/bg-curve-desktop.svg);
+    margin-top: 1rem;
+}
+
+.productive-main{
+    margin-inline: var(--margin-inline);
+    width: var(--width);
+
+    display: flex;
+}
+
+.left-productive{
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.left-productive-heading{
+    font-family: 'Raleway',sans-serif;
+    font-size: 2.5rem;
+}
+
+.left-productive-para{
+    width: 58ch;
+    font-weight: 500;
+}
+
+.fylo{
+    color: hsl(170, 45%, 43%);
+    display: inline-block;
+    margin-bottom: 0.1rem;
+}
+
+.arrow-icon{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.working{
+    display: inline-block;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+
+.ceo{
+    background-color: white;
+    width: 16vw;
+    padding: 2rem 3.5rem 2rem 2rem ;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.ceo-para{
+    width: 36ch;
+    margin-bottom: 1.5rem;
+}
+
+.ceo-profile-pic{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ceo-name{
+    margin: 0;
+    font-weight: bolder;
+    font-size: 0.8em;
+}
+
+.ceo-info{
+   margin: 0;
+   font-size: 0.9em;
+}
+
+.ceo-inline{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.right-productive{
+    margin-top: 8rem;
+}
+
+.right-productive-image{
+    width: 40vw;
+}

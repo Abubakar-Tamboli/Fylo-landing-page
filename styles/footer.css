@@ -1,0 +1,66 @@
+
+.footer-background{
+    background-color:  hsl(243, 87%, 12%);
+    padding: 2rem;
+}
+
+.footer-main{
+    color: hsl(240, 75%, 98%);
+    margin-inline: var(--margin-inline);
+    width: var(--width);
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7em;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.fylo-social{
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo{
+    background-color: transparent;
+    color: hsl(240, 75%, 98%);
+}
+
+.phone-icon{
+    width: 1vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.email-icon{
+    width: 1vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.phone{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.email-div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.about-us{
+    list-style: none;
+    gap: 1rem;
+}
+
+.contact-us{
+    list-style: none;
+}
+
+.facebook-icon,
+.twitter-icon,
+.insta-icon{
+    width: 2vw;
+}
+

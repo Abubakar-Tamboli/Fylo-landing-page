@@ -1,0 +1,33 @@
+
+
+.nav-bar{
+    font-family: 'Raleway',sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: var(--margin-inline);
+    width: var(--width);
+    margin-top:1.5rem;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+.nav-image{
+    width: 18vh;
+}
+
+.features{
+    margin-left: -15rem;
+}
+
+.features:hover,
+.team:hover,
+.sign-in:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
