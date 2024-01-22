@@ -21,13 +21,22 @@
     width: 18vh;
 }
 
-.features{
-    margin-left: -15rem;
+
+
+
+ul {
+    display: flex;
+    gap: 1rem;
+}
+li{
+    list-style: none;
+    font-weight: 600;
 }
 
-.features:hover,
-.team:hover,
-.sign-in:hover{
-    cursor: pointer;
-    text-decoration: underline;
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
 }
