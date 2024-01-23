@@ -1,1 +1,68 @@
 
+@media screen and (max-width:420px){
+
+    body{
+        margin-inline: auto;
+        
+    }
+
+   .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+   }
+
+   ul{
+    font-size: 1em;
+    display: flex;
+    gap: 1.4rem;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .log-in{
+display: flex;
+flex-direction: column-reverse;
+
+   }
+
+   .left-log-in-heading{
+    width: 20ch;
+   }
+
+   .left-log-in-para{
+    width: 40ch;
+   }
+
+   .left-log-in{}
+}
+
+.productive-main{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+.left-productive-heading{
+    width: 20ch;
+}
+
+.left-productive-para{
+    width: 40ch;
+}
+
+.sign-up-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-email{
+    width: 20rem;
+    padding: 10px 20px;
+}
+
+.footer-main{
+    display: flex;
+    flex-direction: column;
+}
