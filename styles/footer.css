@@ -29,6 +29,7 @@
     color: hsl(240, 75%, 98%);
     width: 16vw;
     margin-bottom: 1rem;
+    filter: invert(100%);
 }
 
 .phone-icon{
