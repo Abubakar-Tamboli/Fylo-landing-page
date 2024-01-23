@@ -1,8 +1,6 @@
 
 
 .productive-background{
-    /* background: rgb(200,198,198);
-    background: linear-gradient(90deg, rgba(200,198,198,1) 20%, rgba(247,246,244,1) 47%); */
     background: url(../images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;

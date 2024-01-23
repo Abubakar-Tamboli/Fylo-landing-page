@@ -51,14 +51,12 @@
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
-
-
 .right-log-in{
     flex: 1;
 }
 
 .right-log-in-image{
-    width: 45vw;
+    width: 40vw;
     margin-left: 5rem;
     margin-top: 2rem;
 }
