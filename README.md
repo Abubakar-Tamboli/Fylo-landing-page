@@ -7,8 +7,7 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 - [Overview](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5)
   - [The challenge](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5)
   - [Links](https://github.com/Abubakar-Tamboli/Fylo-landing-page)
-
-- [Author](https://github.com/Abubakar-Tamboli)
+  - [Author](https://github.com/Abubakar-Tamboli)
 
 ## Overview
 
